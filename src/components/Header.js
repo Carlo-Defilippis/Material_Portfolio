@@ -56,7 +56,7 @@ const Header = () => {
             "MYSQL and MongoDB experience",
           ]}
           typeSpeed={50}
-          backSpeed={60}
+          backSpeed={70}
           loop
         />
       </Typography>
