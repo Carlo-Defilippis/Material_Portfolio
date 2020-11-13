@@ -55,8 +55,8 @@ const Header = () => {
             "MERN Stack Developer",
             "MYSQL and MongoDB experience",
           ]}
-          typeSpeed={40}
-          backSpeed={50}
+          typeSpeed={50}
+          backSpeed={60}
           loop
         />
       </Typography>
