@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// Header that types on screen, control speed with typeSpeed option
+// Header that types on screen, control speed with typeSpeed and backSpeed options
 
 const Header = () => {
   const classes = useStyles();
