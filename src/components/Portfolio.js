@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 const projects = [
   {
     name: "React Employee Searcher",
-    description: `A dynamic table built with React.js that can be sorted in any way your heart desires!`,
+    description: `A dynamic table built with React.JS that can be sorted in any way your heart desires!`,
     image: project1,
   },
   {
