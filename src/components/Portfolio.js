@@ -10,12 +10,12 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/react.PNG";
-import project2 from "../images/googlebooks.PNG";
-import project3 from "../images/budget.PNG";
+import project1 from "../images/react.png";
+import project2 from "../images/googlebooks.png";
+import project3 from "../images/budget.png";
 import project4 from "../images/mern-stack.jpg";
 import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.PNG";
+import project6 from "../images/react.png";
 
 // Styles for portfolio
 
