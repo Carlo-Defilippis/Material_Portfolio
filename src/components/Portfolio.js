@@ -39,7 +39,7 @@ const projects = [
     image: project1,
   },
   {
-    name: "Google Books Search and Save",
+    name: "Google Books Search & Save",
     description: `A React.js based google book search engine that can also save your favorite books to a list.`,
     image: project2,
   },
