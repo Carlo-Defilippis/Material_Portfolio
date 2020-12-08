@@ -86,7 +86,7 @@ const Portfolio = () => {
                 <CardMedia
                   component="img"
                   alt="Project 1"
-                  height="140"
+                  height="100%"
                   image={project.image}
                 />
                 <CardContent>
