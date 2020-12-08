@@ -13,7 +13,7 @@ import Typography from "@material-ui/core/Typography";
 import project1 from "../images/react.png";
 import project2 from "../images/googlebooks.png";
 import project3 from "../images/budget.png";
-import project4 from "../images/mern-stack.jpg";
+import project4 from "../images/manager.png";
 import project5 from "../images/react-redux.jpg";
 import project6 from "../images/react.png";
 
@@ -51,11 +51,8 @@ const projects = [
     image: project3,
   },
   {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Employee Tracker",
+    description: `Node module that is used to add, remove, and view employees, roles and departments on a database.`,
     image: project4,
   },
   {
