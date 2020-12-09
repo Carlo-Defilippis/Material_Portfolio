@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
   },
   cardContainer: {
-    maxWidth: 345,
+    maxWidth: 320,
     margin: "3rem auto",
     height: "85%"
   },
@@ -93,7 +93,7 @@ const Portfolio = () => {
   return (
     <Box component="div" className={classes.mainContainer}>
       <Grid container justify="center">
-        {/* Projects */}
+        {/* Projects mapped and sized responsively */}
         {projects.map((project, i) => (
           <Grid item xs={12} sm={8} md={4} key={i}>
             <Card className={classes.cardContainer}>
