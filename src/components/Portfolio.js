@@ -14,8 +14,8 @@ import project1 from "../images/react.png";
 import project2 from "../images/googlebooks.png";
 import project3 from "../images/budget.png";
 import project4 from "../images/manager.png";
-import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.png";
+import project5 from "../images/march.gif";
+import project6 from "../images/fitness.png";
 
 // Styles for portfolio
 
@@ -27,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
   cardContainer: {
     maxWidth: 345,
     margin: "3rem auto",
+    height: "85%"
   },
 }));
 
@@ -35,13 +36,21 @@ const useStyles = makeStyles((theme) => ({
 const projects = [
   {
     name: "React Employee Searcher",
-    description: `A dynamic table built with React.JS that can be sorted in any way your heart desires!`,
+    description: `This React application allows managers to quickly filter through non-sensitive 
+    data to find employees contact information. A dynamic table built with React.JS that can be 
+    sorted in any way your heart desires!`,
     image: project1,
+    link: "https://carlo-defilippis.github.io/React_Employee_App/",
+    github: "https://github.com/Carlo-Defilippis/React_Employee_App",
   },
   {
     name: "Google Books Search & Save",
-    description: `A React.js based google book search engine that can also save your favorite books to a list.`,
+    description: `This is a React-based application that allows users to query and display books from 
+    the Google Books API. The backend technologies include Node, Express, and MongoDB, and allows 
+    users to search for books of interest, save their favorites to a wishlist, and purchase them later.`,
     image: project2,
+    link: "https://google-book-search-carlo.herokuapp.com/",
+    github: "https://github.com/Carlo-Defilippis/google_book_search/blob/master/README.md",
   },
   {
     name: "Progressive Budget",
@@ -49,27 +58,33 @@ const projects = [
     and if the user is offline its saves your user inputs and it then adds the data to the MONGO 
     DataBase when it is back online.`,
     image: project3,
+    link: "https://budget-tracker-carlo.herokuapp.com/",
+    github: "https://github.com/Carlo-Defilippis/Progressive_Budget",
   },
   {
     name: "Employee Tracker",
-    description: `Node module that is used to add, remove, and view employees, roles and departments on a database.`,
+    description: `Node module that is used to add, remove, and view employees, roles and departments 
+    on a database. Live demo is hosted on repl.it to easily showcase its usesage.`,
     image: project4,
+    link: "https://repl.it/@CarloDefilippis/EmployeeTracker#README.md",
+    github: "https://github.com/Carlo-Defilippis/Employee_Tracker",
   },
   {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Marching Squares",
+    description: `Visualized the marching squares algorithm via JavaScript and HTML.  Marching squares 
+    outlines blobs of non-transparent pixels inside a bitmap. It is a computer graphics algorithm that 
+    generates contours for a two-dimensional scalar field (rectangular array of individual numerical values).`,
     image: project5,
+    link: "https://carlo-defilippis.github.io/MarchingSquares/",
+    github: "https://github.com/Carlo-Defilippis/MarchingSquares",
   },
   {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Fitness Tracker",
+    description: `Fitness Tracker is a Semantic and MongoDB application that allows users to add work 
+    outs and track them via a graph system. The backend technologies include Node, Express, and MongoDB.`,
     image: project6,
+    link: "https://fitness-tracker-carlod.herokuapp.com/stats",
+    github: "https://github.com/Carlo-Defilippis/Fitness_Tracker",
   },
 ];
 
@@ -99,12 +114,16 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
+              <a href={project.github}>
                 <Button size="small" color="primary">
-                  Share
+                  Github
                 </Button>
+                </a>
+                <a href={project.link}>
                 <Button size="small" color="primary">
                   Live Demo
                 </Button>
+                </a>
               </CardActions>
             </Card>
           </Grid>
