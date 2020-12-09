@@ -100,7 +100,7 @@ const Navbar = () => {
               <ArrowBack className={classes.arrow} />
             </IconButton>
             <Typography variant="h5" className={classes.title}>
-              Portfolio
+              Navigation Menu
             </Typography>
           </Toolbar>
         </AppBar>
